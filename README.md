@@ -10,6 +10,6 @@ Occasionally you may find a random `any` instead of a proper type, sorry, no tim
 
 I added dummy service which returns a different config if you enter a value smaller than 10k or bigger than 20k. Not enough time was left to add validation also for the duration.
 
-If you wish to run this locally please `clone` -> `yarn` -> `npm start`. The classic react app was used as a starting point. I added a few extra configs for eslint and prettier.
+If you wish to run this locally please `clone` -> `yarn` -> `yarn start`. The classic react app was used as a starting point. I added a few extra configs for eslint and prettier.
 
 Looking forward to reading your feedback. Have fun reviewing.
