@@ -1,44 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello fellow developer.
 
-## Available Scripts
+I hope you will like my solution. It was quite difficult to resolve the test in the given time frame.
 
-In the project directory, you can run:
+I opted for a React solution because the job spec has React at its base.
 
-### `yarn start`
+You will notice a big lack of testing. The only 2 tests I had time to add you can find in the utils folder. These should cover the business requirements and make sure the loan is calculated correctly.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Occasionally you may find a random `any` instead of a proper type, sorry, no time. The same goes for using CSS instead of SASS. The requirements said to have an `Excellent user experience` but in 4 hours not much can be achieved. My main objective was to have a complete experience while focusing on keeping things separated.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+I added dummy service which returns a different config if you enter a value smaller than 10k or bigger than 20k. Not enough time was left to add validation also for the duration.
 
-### `yarn test`
+If you wish to run this locally please `clone` -> `yarn` -> `npm start`. The classic react app was used as a starting point. I added a few extra configs for eslint and prettier.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Looking forward to reading your feedback. Have fun reviewing.
