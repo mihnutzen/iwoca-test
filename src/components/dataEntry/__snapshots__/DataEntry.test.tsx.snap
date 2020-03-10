@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataEntry component Should render correctly 1`] = `
+<div
+  className="DataEntry"
+>
+  <span>
+    label
+  </span>
+  <span>
+    <input
+      max={1000000}
+      min={1}
+      onChange={[Function]}
+      type="number"
+      value={100}
+    />
+  </span>
+  <span>
+    (in 
+    £
+    )
+  </span>
+  <span
+    className="DataEntry__error"
+  >
+    error
+  </span>
+</div>
+`;
